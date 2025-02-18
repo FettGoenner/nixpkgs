@@ -12,13 +12,13 @@
 
 stdenv.mkDerivation rec {
   pname = "scipopt-papilo";
-  version = "2.4.0";
+  version = "2.4.1";
 
   src = fetchFromGitHub {
     owner = "scipopt";
     repo = "papilo";
     tag = "v${version}";
-    hash = "sha256-WMw9v57nuP6MHj9Ft4l5FxdIF5VUWCRm/909tbz7VD4=";
+    hash = "sha256-oQ9iq5UkFK0ghUx6uxdJIOo5niQjniHegSZptqi2fgE=";
   };
 
   nativeBuildInputs = [ cmake ];
